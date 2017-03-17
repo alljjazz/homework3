@@ -1,0 +1,120 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    width: 1060px;
+    height: 110vh;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px -5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: inline-block;
+    margin: 50px 0 45px 45px;
+}
+
+.nav {
+    height: 40px;
+    width: 965px;
+    margin: 0px 45px 45px 45px;
+}
+
+.menu-top li {
+    display: inline-block;
+}
+
+.menu-top {
+    height: 40px;
+    background: linear-gradient(to top, #444141, #5c5c5c);
+}
+
+.menu-top a {
+    display: block;
+    padding: 12px 25px;
+    color: #fff;
+    text-shadow: 1px 1px 4px black;
+    text-decoration: none;
+}
+
+.menu-top a:hover {
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    background: linear-gradient(to top, #2f2f2f, #4a4a4a);
+}
+
+.menu {
+    float: left;
+    width: 240px;
+    margin: 0px 45px 45px 45px;
+}
+
+.sidebar a {
+    color: #585858;
+    margin-bottom: -1px;
+    font-size: 13.3px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #cacaca;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #f9f9f9;
+}
+
+.main {
+    margin-left: 330px;
+    margin-right: 50px;
+}
+
+.banner {
+    border: 1px solid #c8c8c8;
+}
+
+.banner img {
+    padding: 50px 0 50px 120px;
+    width: 400px;
+    display: block;
+}
+
+.discr {
+    padding: 40px 25px 60px 25px;
+}
+
+.discr p {
+    color: #585858;
+    line-height: 22px;
+}
+
+.menu-bottom li {
+    display: inline-block;
+}
+
+.menu-bottom {
+    height: 40px;
+    width: 965px;
+    margin: 0px 45px 0px 45px;
+    background: #e1e1e1;
+}
+
+.menu-bottom a {
+    color: #585858;
+    font-size: 14px;
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.menu-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    color: #585858;
+    font-size: 14px;
+    float: right;
+    margin: 0 75px 0 0;
+    line-height: 40px;
+}
